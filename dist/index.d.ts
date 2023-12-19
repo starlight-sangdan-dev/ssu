@@ -1,2 +1,3 @@
 import { cn } from "./util";
-export { cn };
+import MyComponent from "./MyComponent";
+export { cn, MyComponent };
