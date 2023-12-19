@@ -1,2 +1,2 @@
-type Age = number;
-declare const myAge: Age;
+import { cn } from "./util";
+export { cn };

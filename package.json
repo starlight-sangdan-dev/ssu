@@ -1,6 +1,6 @@
 {
     "name": "@starlight-sangdan/ssu",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "starlight-sangdan utility package",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
@@ -10,7 +10,7 @@
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "webpack"
+        "build": "webpack --config webpack.config.js && webpack --config webpackModule.config.js"
     },
     "repository": {
         "type": "git",
@@ -30,5 +30,10 @@
         "typescript": "^5.3.3",
         "webpack": "^5.89.0",
         "webpack-cli": "^5.1.4"
+    },
+    "dependencies": {
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.0.0",
+        "tailwind-merge": "^2.1.0"
     }
 }

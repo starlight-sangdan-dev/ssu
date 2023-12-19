@@ -1,6 +1,3 @@
-// test
-type Age = number;
+import { cn } from "./util";
 
-const myAge: Age = 30;
-
-console.log(myAge);
+export { cn };
