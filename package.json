@@ -1,6 +1,6 @@
 {
     "name": "@starlight-sangdan/ssu",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "description": "starlight-sangdan utility package",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
