@@ -6,8 +6,7 @@
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
     "files": [
-        "dist/*",
-        "components/*"
+        "dist/*"
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
